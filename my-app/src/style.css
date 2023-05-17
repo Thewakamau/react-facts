@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+.container {
+}
+.Navbar {
+	display: flex;
+
+	color: lightblue;
+	box-shadow: 0 0 8px 2px #080808;
+}
+.Logo {
+	width: 80px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 50%;
+}
+.btn {
+	width: 40px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.Main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Main > ul > li {
+	margin: 4px;
+}
+.dark {
+	background-color: #333;
+	color: #fff;
+}
+.light {
+	background-color: #fff;
+	color: black;
+}
